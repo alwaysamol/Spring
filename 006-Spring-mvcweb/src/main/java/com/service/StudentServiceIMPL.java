@@ -24,7 +24,7 @@ public class StudentServiceIMPL implements StudentService{
 
 	public List<Student> loginCheck(String username, String password) {
 		
-		   if(username.equals("admin") && password.equals("1234"))
+		   if(username.equals("amolmaske") && password.equals("0000"))
 		   {
 			   return dao.getAllStudent();
 		   }
